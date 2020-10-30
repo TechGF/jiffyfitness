@@ -77,7 +77,7 @@ Optional:
     * Upper Workout - Display collection view of upper workouts
         * Chest Workout - Display collection view of chest workouts
         * Arm Workout
-                * Tricep Curls - Display how to via video and description
+             * Tricep Curls - Display how to via video and description
         * Shoulder
         * Biceps 
         * Back Workout
