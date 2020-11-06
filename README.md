@@ -120,6 +120,7 @@ Optional:
    - (Create/POST) Create a rep, set, and weight count 
    - (Create/POST) Like or star a workout
 
+<pre><code>
 //this is to sign up
 func myMethod() {
   var user = PFUser()
@@ -168,16 +169,15 @@ imageView3.frame = CGRect(x: 20.0, y: 390.0, width: self.view.frame.size.width -
 view.addSubview(imageView3)
 
 //Example Query for Leg Workouts
-
 let query = PFQuery(className: "Workouts")
     query.includeKey("Leg")
     query.limit = 20 
         
-query.findObjectsInBackground { 
-(posts, error) in
-    if posts != nil {
-    self.workouts = workouts!
-    self.tableView.reloadData()
+    query.findObjectsInBackground { (posts, error) in
+        if posts != nil {
+            self.workouts = workouts!
+            self.tableView.reloadData()
+        }
     }
-}
+</code></pre>
 
