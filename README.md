@@ -95,3 +95,16 @@ Optional:
 "https://imgur.com/a/wWTugSm"
 ![](https://i.imgur.com/RtnIBpL.jpg)
 
+## Networking
+### List of network requests by screen
+- Sign up Screen
+   - (Create/POST)Create a new user account
+- Login Screen
+   -(Read/Get)the username and password
+- Home Feed Screen
+   -(Read/GET) Query category of workout
+- Workout Screen
+   - (Read/GET) Query workout image and instruction
+   - (Create/POST) Create a rep, set, and weight count 
+   - (Create/POST) Like or star a workout
+
