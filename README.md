@@ -96,6 +96,18 @@ Optional:
 ![](https://i.imgur.com/RtnIBpL.jpg)
 
 ## Networking
+
+### Network Request Actions
+|Property|Type|Description|Network Request|
+|:---:|:----:|:----:|:---:|
+|username|string|Hold the user account name|Create|
+|password|string|Hold user password|Create|
+|workoutGif|File|Gif of theworkout|Read|
+|instructions|String|Description of the workout|Read|
+|reps|Number|Stores the number of reps|Create|
+|sets|Number|Stores the number of sets|Create|
+|weights|Number|Stores the weight used|Create|
+
 ### List of network requests by screen
 - Sign up Screen
    - (Create/POST)Create a new user account
@@ -107,4 +119,65 @@ Optional:
    - (Read/GET) Query workout image and instruction
    - (Create/POST) Create a rep, set, and weight count 
    - (Create/POST) Like or star a workout
+
+//this is to sign up
+func myMethod() {
+  var user = PFUser()
+  user.username = "myUsername"
+  user.password = "myPassword"
+ // other fields can be set just like with PFObject
+  user.signUpInBackground {
+    (succeeded: Bool, error: Error?) -> Void in
+    if let error = error {
+      let errorString = error.localizedDescription
+      // Show the errorString somewhere and let the user try again.
+    } else {
+      // Hooray! Let them use the app now.
+    }
+  }
+}
+
+//this is to log in
+PFUser.logInWithUsername(inBackground:"myname", password:"mypass") {
+  (user: PFUser?, error: Error?) -> Void in
+  if user != nil {
+    // Do stuff after successful login.
+  } else {
+    // The login failed. Check error to see why.
+  }
+}
+
+//this is for update/saving in your workout
+let workoutLog = PFObject(className:"user")
+user["reps"] = userReps
+user["sets"] = userSets
+user["weight"] = userWeights
+user.saveInBackground { (succeeded, error)  in
+    if (succeeded) {
+        // The object has been saved.
+    } else {
+        // There was a problem, check error.description
+    }
+}
+
+//Parse network Requestion for the GIF
+let gifURL : String = "link to the gif of the workout"
+let imageURL = UIImage.gifImageWithURL(gifURL)
+let imageView3 = UIImageView(image: imageURL)
+imageView3.frame = CGRect(x: 20.0, y: 390.0, width: self.view.frame.size.width - 40, height: 150.0)
+view.addSubview(imageView3)
+
+//Example Query for Leg Workouts
+
+let query = PFQuery(className: "Workouts")
+    query.includeKey("Leg")
+    query.limit = 20 
+        
+query.findObjectsInBackground { 
+(posts, error) in
+    if posts != nil {
+    self.workouts = workouts!
+    self.tableView.reloadData()
+    }
+}
 
