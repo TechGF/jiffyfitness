@@ -7,6 +7,7 @@ target 'JIFFY FITNESS' do
 
   # Pods for JIFFY FITNESS
 pod 'Parse'
+pod 'AlamofireImage'
 
   target 'JIFFY FITNESSTests' do
     inherit! :search_paths
