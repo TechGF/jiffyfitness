@@ -1,8 +1,6 @@
-Unit 8: Group Milestone - README
+# (Jiffy)Fitness app - README
 ===
 Jacob Chen, Jonathan Leibovici, Fanflor Theodore, Gary Feng
-
-# (Jiffy)Fitness app
 
 ## Table of Contents
 1. [Overview](#Overview)
