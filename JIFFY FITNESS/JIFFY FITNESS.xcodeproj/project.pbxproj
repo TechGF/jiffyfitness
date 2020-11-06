@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C63C86D3406E85C80BFAAAE /* Pods_JIFFY_FITNESSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AFC26D23E62F8A835BD8E4 /* Pods_JIFFY_FITNESSTests.framework */; };
 		3738D4A62554A23F000BD72F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3738D4A52554A23F000BD72F /* AppDelegate.swift */; };
 		3738D4A82554A23F000BD72F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3738D4A72554A23F000BD72F /* ViewController.swift */; };
 		3738D4AB2554A23F000BD72F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3738D4A92554A23F000BD72F /* Main.storyboard */; };
 		3738D4AD2554A241000BD72F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3738D4AC2554A241000BD72F /* Assets.xcassets */; };
 		3738D4B02554A241000BD72F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3738D4AE2554A241000BD72F /* LaunchScreen.storyboard */; };
+		6486B8FB3132C51D931E51A0 /* Pods_JIFFY_FITNESS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7347E8EDBE76276FE15F677 /* Pods_JIFFY_FITNESS.framework */; };
+		7B8E4C591ADF08403AC42252 /* Pods_JIFFY_FITNESS_JIFFY_FITNESSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5FB5A7C4FF7B87CAD28411 /* Pods_JIFFY_FITNESS_JIFFY_FITNESSUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00612EC8DF55E73A2791BC0C /* Pods-JIFFY FITNESS-JIFFY FITNESSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JIFFY FITNESS-JIFFY FITNESSUITests.release.xcconfig"; path = "Target Support Files/Pods-JIFFY FITNESS-JIFFY FITNESSUITests/Pods-JIFFY FITNESS-JIFFY FITNESSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2B5FB5A7C4FF7B87CAD28411 /* Pods_JIFFY_FITNESS_JIFFY_FITNESSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JIFFY_FITNESS_JIFFY_FITNESSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3738D4A22554A23F000BD72F /* JIFFY FITNESS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JIFFY FITNESS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3738D4A52554A23F000BD72F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3738D4A72554A23F000BD72F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +46,13 @@
 		3738D4B12554A241000BD72F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3738D4B62554A241000BD72F /* JIFFY FITNESSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JIFFY FITNESSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3738D4C12554A241000BD72F /* JIFFY FITNESSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JIFFY FITNESSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A5C1F6BF7E453259A7A1C88 /* Pods-JIFFY FITNESSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JIFFY FITNESSTests.release.xcconfig"; path = "Target Support Files/Pods-JIFFY FITNESSTests/Pods-JIFFY FITNESSTests.release.xcconfig"; sourceTree = "<group>"; };
+		676EB8D17CFC4E9A4863B07D /* Pods-JIFFY FITNESSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JIFFY FITNESSTests.debug.xcconfig"; path = "Target Support Files/Pods-JIFFY FITNESSTests/Pods-JIFFY FITNESSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E4125D8765D1B105DFF47D9 /* Pods-JIFFY FITNESS-JIFFY FITNESSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JIFFY FITNESS-JIFFY FITNESSUITests.debug.xcconfig"; path = "Target Support Files/Pods-JIFFY FITNESS-JIFFY FITNESSUITests/Pods-JIFFY FITNESS-JIFFY FITNESSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		71AFC26D23E62F8A835BD8E4 /* Pods_JIFFY_FITNESSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JIFFY_FITNESSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4778F79218B19F0EC0C0E1 /* Pods-JIFFY FITNESS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JIFFY FITNESS.release.xcconfig"; path = "Target Support Files/Pods-JIFFY FITNESS/Pods-JIFFY FITNESS.release.xcconfig"; sourceTree = "<group>"; };
+		9FF048228C4377F85481350B /* Pods-JIFFY FITNESS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JIFFY FITNESS.debug.xcconfig"; path = "Target Support Files/Pods-JIFFY FITNESS/Pods-JIFFY FITNESS.debug.xcconfig"; sourceTree = "<group>"; };
+		A7347E8EDBE76276FE15F677 /* Pods_JIFFY_FITNESS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JIFFY_FITNESS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6486B8FB3132C51D931E51A0 /* Pods_JIFFY_FITNESS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C63C86D3406E85C80BFAAAE /* Pods_JIFFY_FITNESSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,17 +76,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B8E4C591ADF08403AC42252 /* Pods_JIFFY_FITNESS_JIFFY_FITNESSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10DD296DBF3646EB83A2EC51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FF048228C4377F85481350B /* Pods-JIFFY FITNESS.debug.xcconfig */,
+				8B4778F79218B19F0EC0C0E1 /* Pods-JIFFY FITNESS.release.xcconfig */,
+				6E4125D8765D1B105DFF47D9 /* Pods-JIFFY FITNESS-JIFFY FITNESSUITests.debug.xcconfig */,
+				00612EC8DF55E73A2791BC0C /* Pods-JIFFY FITNESS-JIFFY FITNESSUITests.release.xcconfig */,
+				676EB8D17CFC4E9A4863B07D /* Pods-JIFFY FITNESSTests.debug.xcconfig */,
+				3A5C1F6BF7E453259A7A1C88 /* Pods-JIFFY FITNESSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3738D4992554A23F000BD72F = {
 			isa = PBXGroup;
 			children = (
 				3738D4A42554A23F000BD72F /* JIFFY FITNESS */,
 				3738D4A32554A23F000BD72F /* Products */,
+				10DD296DBF3646EB83A2EC51 /* Pods */,
+				4682DAE6FA8AD255D5BB28F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +130,16 @@
 			path = "JIFFY FITNESS";
 			sourceTree = "<group>";
 		};
+		4682DAE6FA8AD255D5BB28F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7347E8EDBE76276FE15F677 /* Pods_JIFFY_FITNESS.framework */,
+				2B5FB5A7C4FF7B87CAD28411 /* Pods_JIFFY_FITNESS_JIFFY_FITNESSUITests.framework */,
+				71AFC26D23E62F8A835BD8E4 /* Pods_JIFFY_FITNESSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3738D4CA2554A241000BD72F /* Build configuration list for PBXNativeTarget "JIFFY FITNESS" */;
 			buildPhases = (
+				BC6CE075A6B064C0A4693761 /* [CP] Check Pods Manifest.lock */,
 				3738D49E2554A23F000BD72F /* Sources */,
 				3738D49F2554A23F000BD72F /* Frameworks */,
 				3738D4A02554A23F000BD72F /* Resources */,
+				019E553EF9A0A7113B8BB5CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +166,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3738D4CD2554A241000BD72F /* Build configuration list for PBXNativeTarget "JIFFY FITNESSTests" */;
 			buildPhases = (
+				7F0358F3EC9CFF6707EA5649 /* [CP] Check Pods Manifest.lock */,
 				3738D4B22554A241000BD72F /* Sources */,
 				3738D4B32554A241000BD72F /* Frameworks */,
 				3738D4B42554A241000BD72F /* Resources */,
@@ -141,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3738D4D02554A241000BD72F /* Build configuration list for PBXNativeTarget "JIFFY FITNESSUITests" */;
 			buildPhases = (
+				B926A37C63ACAB89BCD18932 /* [CP] Check Pods Manifest.lock */,
 				3738D4BD2554A241000BD72F /* Sources */,
 				3738D4BE2554A241000BD72F /* Frameworks */,
 				3738D4BF2554A241000BD72F /* Resources */,
+				E20EF1836CB4DD40773F7334 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,6 +270,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		019E553EF9A0A7113B8BB5CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JIFFY FITNESS/Pods-JIFFY FITNESS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JIFFY FITNESS/Pods-JIFFY FITNESS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JIFFY FITNESS/Pods-JIFFY FITNESS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F0358F3EC9CFF6707EA5649 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JIFFY FITNESSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B926A37C63ACAB89BCD18932 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JIFFY FITNESS-JIFFY FITNESSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC6CE075A6B064C0A4693761 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JIFFY FITNESS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E20EF1836CB4DD40773F7334 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JIFFY FITNESS-JIFFY FITNESSUITests/Pods-JIFFY FITNESS-JIFFY FITNESSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JIFFY FITNESS-JIFFY FITNESSUITests/Pods-JIFFY FITNESS-JIFFY FITNESSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JIFFY FITNESS-JIFFY FITNESSUITests/Pods-JIFFY FITNESS-JIFFY FITNESSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3738D49E2554A23F000BD72F /* Sources */ = {
@@ -402,6 +551,7 @@
 		};
 		3738D4CB2554A241000BD72F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FF048228C4377F85481350B /* Pods-JIFFY FITNESS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -419,6 +569,7 @@
 		};
 		3738D4CC2554A241000BD72F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B4778F79218B19F0EC0C0E1 /* Pods-JIFFY FITNESS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -436,6 +587,7 @@
 		};
 		3738D4CE2554A241000BD72F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 676EB8D17CFC4E9A4863B07D /* Pods-JIFFY FITNESSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +608,7 @@
 		};
 		3738D4CF2554A241000BD72F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A5C1F6BF7E453259A7A1C88 /* Pods-JIFFY FITNESSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -476,6 +629,7 @@
 		};
 		3738D4D12554A241000BD72F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E4125D8765D1B105DFF47D9 /* Pods-JIFFY FITNESS-JIFFY FITNESSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -495,6 +649,7 @@
 		};
 		3738D4D22554A241000BD72F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00612EC8DF55E73A2791BC0C /* Pods-JIFFY FITNESS-JIFFY FITNESSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
