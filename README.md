@@ -8,6 +8,7 @@ Jacob Chen, Jonathan Leibovici, Fanflor Theodore, Gary Feng
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
+1. [Networking](#Networking)
 
 ## Overview
 ### Description
