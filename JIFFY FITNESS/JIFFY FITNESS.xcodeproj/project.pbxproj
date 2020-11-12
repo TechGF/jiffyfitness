@@ -16,6 +16,7 @@
 		50B56C33255B0CAF00C251A4 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B56C32255B0CAF00C251A4 /* FeedViewController.swift */; };
 		50B56C38255B1BDF00C251A4 /* LowerWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B56C37255B1BDF00C251A4 /* LowerWorkoutViewController.swift */; };
 		50B56C3D255B865A00C251A4 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B56C3C255B865900C251A4 /* SignupViewController.swift */; };
+		50B56C4A255DCCF100C251A4 /* UpperBodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B56C49255DCCF100C251A4 /* UpperBodyViewController.swift */; };
 		6486B8FB3132C51D931E51A0 /* Pods_JIFFY_FITNESS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7347E8EDBE76276FE15F677 /* Pods_JIFFY_FITNESS.framework */; };
 		7B8E4C591ADF08403AC42252 /* Pods_JIFFY_FITNESS_JIFFY_FITNESSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5FB5A7C4FF7B87CAD28411 /* Pods_JIFFY_FITNESS_JIFFY_FITNESSUITests.framework */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		50B56C32255B0CAF00C251A4 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		50B56C37255B1BDF00C251A4 /* LowerWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerWorkoutViewController.swift; sourceTree = "<group>"; };
 		50B56C3C255B865900C251A4 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		50B56C49255DCCF100C251A4 /* UpperBodyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperBodyViewController.swift; sourceTree = "<group>"; };
 		676EB8D17CFC4E9A4863B07D /* Pods-JIFFY FITNESSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JIFFY FITNESSTests.debug.xcconfig"; path = "Target Support Files/Pods-JIFFY FITNESSTests/Pods-JIFFY FITNESSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E4125D8765D1B105DFF47D9 /* Pods-JIFFY FITNESS-JIFFY FITNESSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JIFFY FITNESS-JIFFY FITNESSUITests.debug.xcconfig"; path = "Target Support Files/Pods-JIFFY FITNESS-JIFFY FITNESSUITests/Pods-JIFFY FITNESS-JIFFY FITNESSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		71AFC26D23E62F8A835BD8E4 /* Pods_JIFFY_FITNESSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JIFFY_FITNESSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +136,7 @@
 				50B56C32255B0CAF00C251A4 /* FeedViewController.swift */,
 				50B56C37255B1BDF00C251A4 /* LowerWorkoutViewController.swift */,
 				50B56C3C255B865900C251A4 /* SignupViewController.swift */,
+				50B56C49255DCCF100C251A4 /* UpperBodyViewController.swift */,
 			);
 			path = "JIFFY FITNESS";
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50B56C38255B1BDF00C251A4 /* LowerWorkoutViewController.swift in Sources */,
+				50B56C4A255DCCF100C251A4 /* UpperBodyViewController.swift in Sources */,
 				50B56C2E255B0C6F00C251A4 /* LoginViewController.swift in Sources */,
 				50B56C3D255B865A00C251A4 /* SignupViewController.swift in Sources */,
 				50B56C33255B0CAF00C251A4 /* FeedViewController.swift in Sources */,

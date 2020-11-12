@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import Parse
 class LoginViewController: UIViewController {
 
     
@@ -25,15 +25,37 @@ class LoginViewController: UIViewController {
     }
     
 
-    
+
     @IBAction func OnSignUp(_ sender: Any) {
-        
+        let user = PFUser()
+        //let is for const
+        user.username = userNameField.text
+        user.password = PasswordField.text
+//         user.email = "email@example.com"
+//        user["phone"] = "415-392-0202"
+        user.signUpInBackground { (success, error) in
+            if success{
+                self.performSegue(withIdentifier: "loginSegue", sender: nil)
+            }else{
+                print("error:\(String(describing: error?.localizedDescription))")
+            }
+        }
     }
     
     
     
     @IBAction func OnLogin(_ sender: Any) {
+        let username = userNameField.text!
+        let password = PasswordField.text!
         
+        PFUser.logInWithUsername(inBackground:username, password:password){(user,error)in
+            if user != nil{
+                self.performSegue(withIdentifier: "loginSegue", sender: nil)
+            }else{
+                print("error:\(String(describing: error?.localizedDescription))")
+            }
+            
+        }
     }
     
     
