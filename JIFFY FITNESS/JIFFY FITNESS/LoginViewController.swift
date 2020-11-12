@@ -35,7 +35,7 @@ class LoginViewController: UIViewController {
 //        user["phone"] = "415-392-0202"
         user.signUpInBackground { (success, error) in
             if success{
-                self.performSegue(withIdentifier: "loginSegue", sender: nil)
+                self.performSegue(withIdentifier: "LoginSegue", sender: nil)
             }else{
                 print("error:\(String(describing: error?.localizedDescription))")
             }
@@ -50,7 +50,7 @@ class LoginViewController: UIViewController {
         
         PFUser.logInWithUsername(inBackground:username, password:password){(user,error)in
             if user != nil{
-                self.performSegue(withIdentifier: "loginSegue", sender: nil)
+                self.performSegue(withIdentifier: "LoginSegue", sender: nil)
             }else{
                 print("error:\(String(describing: error?.localizedDescription))")
             }

@@ -35,7 +35,6 @@
                                 <state key="normal" title="SignUp"/>
                                 <connections>
                                     <action selector="OnSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kQ0-0Q-pH1"/>
-                                    <segue destination="kAg-tv-2hM" kind="presentation" identifier="SignupSegue" id="zbc-qT-EXg"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UserName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gW1-2f-yxZ">
@@ -84,7 +83,7 @@
             <objects>
                 <viewController id="VaA-KD-zvT" customClass="SignupViewController" customModule="JIFFY_FITNESS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7VO-QA-43U">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g69-0T-S3S">
@@ -244,27 +243,9 @@
             </objects>
             <point key="canvasLocation" x="4484" y="60"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="Xjw-5r-Sov">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kAg-tv-2hM" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="s6G-A3-8dL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="VaA-KD-zvT" kind="relationship" relationship="rootViewController" id="jCT-YQ-EBe"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bst-E1-Ki3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1976.8115942028987" y="784.82142857142856"/>
-        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="87N-wk-Sca"/>
+        <segue reference="Q6A-Cf-Qyf"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="pencil.circle.fill" catalog="system" width="128" height="121"/>
