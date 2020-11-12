@@ -17,7 +17,7 @@ Fitness app that allow users to view collection of workouts. Users are able to p
 - **Mobile:** Mobile only
 - **Story:** People are getting lazy and need to start getting into a basic healthy workout at home since everyone is staying at home this app will teach you the way to workout with the equipment you have at home.
 - **Market:** Age group: 13+
-- **Habit:** Usually once or twice a day - At mininmum 3-5 times a week
+- **Habit:** On average 3-5 times a week. 
 - **Scope:**  Allow users to view different types of workouts based on body parts. We can expand into allowing users to post comments on videos or tips / variations of those workouts.  
 
 ## Product Spec
