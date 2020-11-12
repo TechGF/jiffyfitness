@@ -150,60 +150,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z3H-Re-MCa">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="square.and.arrow.up" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Z3H-Re-MCa">
                                 <rect key="frame" x="20" y="56" width="374" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="9vC-6c-5wa" appends="YES" id="fIU-EW-f4Z"/>
+                                    <outletCollection property="gestureRecognizers" destination="Jdi-R8-2bC" appends="YES" id="E8r-C5-Lyp"/>
                                 </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YvD-Jx-70T">
                                 <rect key="frame" x="20" y="549" width="374" height="177"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="4Lb-U6-goX" appends="YES" id="uWN-5f-e8J"/>
-                                </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qzz-Ky-Jgk">
                                 <rect key="frame" x="20" y="289" width="374" height="173"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="u3B-Z6-fzL" appends="YES" id="pxx-Rv-etO"/>
-                                </connections>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="zbu-Cf-MuT"/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="8Zs-dR-mSM" appends="YES" id="ira-Qg-NUc"/>
-                        </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Types of Work Outs" id="8jP-3y-jIg"/>
                     <connections>
+                        <outlet property="image1Tapped" destination="Z3H-Re-MCa" id="cF3-bW-l0t"/>
                         <segue destination="RNd-v3-rVa" kind="presentation" id="atP-mW-XM4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f1I-ea-JzE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="9vC-6c-5wa">
+                <tapGestureRecognizer id="Jdi-R8-2bC">
                     <connections>
-                        <action selector="image1Tapped:" destination="IX6-fA-109" id="u6F-aM-pAA"/>
+                        <action selector="image1tapped:" destination="IX6-fA-109" id="7kT-TK-PMG"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="u3B-Z6-fzL">
-                    <connections>
-                        <action selector="image2Tapped:" destination="IX6-fA-109" id="N72-lF-db8"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="4Lb-U6-goX">
-                    <connections>
-                        <action selector="image3Tapped:" destination="IX6-fA-109" id="yFU-mi-MG0"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="8Zs-dR-mSM"/>
             </objects>
             <point key="canvasLocation" x="3665.217391304348" y="59.598214285714285"/>
         </scene>
@@ -265,5 +246,6 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="pencil.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
     </resources>
 </document>

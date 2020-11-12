@@ -28,14 +28,8 @@ class FeedViewController: UIViewController {
     }
     */
     
-    @IBAction func image1Tapped(_ sender: Any) {
-        print("image 1")
+    @IBAction func image1tapped(_ sender: Any) {
+        print("image 1 tapped")
     }
     
-    @IBAction func image2Tapped(_ sender: Any) {
-        print("image 2")
-    }
-    @IBAction func image3Tapped(_ sender: Any) {
-        print("image 3")
-    }
 }
