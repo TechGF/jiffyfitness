@@ -180,3 +180,12 @@ let query = PFQuery(className: "Workouts")
     }
 </code></pre>
 
+## User Stories
+
+The following **required** functionality is completed:
+
+- [ ] Updated status of issues in Project board (2pts)
+- [ ] Sprint planned for next week (Issues created, assigned & added to project board) (3pts)
+- [ ] Completed user stories checked-off in README (2pts)
+- [ ] Gifs created to show build progress and added to README (3pts)
+
