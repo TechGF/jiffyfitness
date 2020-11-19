@@ -11,6 +11,9 @@ import Parse
 import AlamofireImage
 class FeedViewController: UIViewController {
 
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -28,8 +31,6 @@ class FeedViewController: UIViewController {
     }
     */
     
-    @IBAction func image1tapped(_ sender: Any) {
-        print("image 1 tapped")
-    }
+ 
     
 }
