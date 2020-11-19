@@ -8,6 +8,8 @@
 
 import UIKit
 import Parse
+import AlamofireImage
+
 class LoginViewController: UIViewController {
 
     
@@ -31,8 +33,6 @@ class LoginViewController: UIViewController {
         //let is for const
         user.username = userNameField.text
         user.password = PasswordField.text
-//         user.email = "email@example.com"
-//        user["phone"] = "415-392-0202"
         user.signUpInBackground { (success, error) in
             if success{
                 self.performSegue(withIdentifier: "LoginSegue", sender: nil)

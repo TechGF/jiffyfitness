@@ -8,6 +8,7 @@
 
 import UIKit
 import Parse
+import AlamofireImage
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -23,6 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 $0.server = "https://parseapi.back4app.com"
         }
         Parse.initialize(with: parseConfig)
+        
         
         return true
     }

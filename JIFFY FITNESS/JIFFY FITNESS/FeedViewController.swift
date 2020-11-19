@@ -9,6 +9,7 @@
 import UIKit
 import Parse
 import AlamofireImage
+
 class FeedViewController: UIViewController {
 
     override func viewDidLoad() {
