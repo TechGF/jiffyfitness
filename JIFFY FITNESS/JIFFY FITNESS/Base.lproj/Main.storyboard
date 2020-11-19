@@ -86,7 +86,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YvD-Jx-70T">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lasso" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="YvD-Jx-70T">
                                 <rect key="frame" x="20" y="549" width="374" height="177"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -94,13 +94,17 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WdD-3j-mJ2">
                                 <rect key="frame" x="28" y="98" width="358" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="square.and.arrow.down.fill" catalog="system"/>
+                                <state key="normal" backgroundImage="square.and.arrow.down.fill" catalog="system"/>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qzz-Ky-Jgk">
-                                <rect key="frame" x="20" y="275" width="374" height="173"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nzN-Nb-Hky">
+                                <rect key="frame" x="54" y="361" width="310" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                            </imageView>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" backgroundImage="trash" catalog="system"/>
+                                <connections>
+                                    <segue destination="fsR-y2-TKy" kind="presentation" id="szv-oU-yBO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zbu-Cf-MuT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -108,10 +112,13 @@
                     </view>
                     <navigationItem key="navigationItem" title="Types of Work Outs" id="8jP-3y-jIg"/>
                     <connections>
+                        <outlet property="lowerImage" destination="YvD-Jx-70T" id="Bjw-wR-XnP"/>
+                        <outlet property="upperImage" destination="WdD-3j-mJ2" id="aUB-hS-HLp"/>
                         <segue destination="MjC-bp-SDW" kind="presentation" id="bzG-U4-fUV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f1I-ea-JzE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="aJH-wo-68b"/>
             </objects>
             <point key="canvasLocation" x="3665.217391304348" y="59.598214285714285"/>
         </scene>
@@ -129,7 +136,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R4x-C2-28s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5613.04347826087" y="59.598214285714285"/>
+            <point key="canvasLocation" x="5612" y="60"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="C21-i2-qaX">
@@ -165,12 +172,29 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MjV-If-AeM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4702.898550724638" y="59.598214285714285"/>
+            <point key="canvasLocation" x="4636" y="60"/>
+        </scene>
+        <!--UpperBodyViewController-->
+        <scene sceneID="7GJ-Pt-FBA">
+            <objects>
+                <viewController title="UpperBodyViewController" id="fsR-y2-TKy" customClass="UpperBodyViewController" customModule="JIFFY_FITNESS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P7I-mE-KFK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="gNt-b7-N1B"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dir-Es-jjO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3665" y="824"/>
         </scene>
     </scenes>
     <resources>
+        <image name="lasso" catalog="system" width="128" height="118"/>
         <image name="pencil.circle.fill" catalog="system" width="128" height="121"/>
         <image name="square.and.arrow.down.fill" catalog="system" width="121" height="128"/>
+        <image name="trash" catalog="system" width="121" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
