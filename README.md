@@ -185,8 +185,8 @@ let query = PFQuery(className: "Workouts")
 
 The following **required** functionality is completed:
 
-- [ ] Updated status of issues in Project board (2pts)
-- [ ] Sprint planned for next week (Issues created, assigned & added to project board) (3pts)
-- [ ] Completed user stories checked-off in README (2pts)
-- [ ] Gifs created to show build progress and added to README (3pts)
+- [X] Updated status of issues in Project board (2pts)
+- [X] Sprint planned for next week (Issues created, assigned & added to project board) (3pts)
+- [X] Completed user stories checked-off in README (2pts)
+- [X] Gifs created to show build progress and added to README (3pts)
 
