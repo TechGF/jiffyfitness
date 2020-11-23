@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,14 +23,14 @@
                                     <constraint firstAttribute="width" secondItem="7Ho-yt-G7p" secondAttribute="height" multiplier="339:230" id="TJY-if-JtM"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tz2-L1-Htx">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tz2-L1-Htx">
                                 <rect key="frame" x="276" y="542" width="38" height="30"/>
                                 <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="OnLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="huK-Ky-RDD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sm-91-OL7">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sm-91-OL7">
                                 <rect key="frame" x="100" y="542" width="48" height="30"/>
                                 <state key="normal" title="Signup"/>
                                 <connections>
@@ -59,6 +60,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="0sm-91-OL7" firstAttribute="top" secondItem="dws-Kz-vbA" secondAttribute="bottom" constant="8" id="5Ew-pA-Ce9"/>
@@ -81,7 +83,6 @@
                             <constraint firstItem="tz2-L1-Htx" firstAttribute="top" secondItem="dws-Kz-vbA" secondAttribute="bottom" constant="8" id="xbR-sj-1Ph"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gW1-2f-yxZ" secondAttribute="trailing" constant="40" id="xes-XG-k8X"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="W21-GK-6ye"/>
                     <connections>
@@ -102,50 +103,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YvD-Jx-70T">
-                                <rect key="frame" x="20" y="549" width="374" height="177"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yey-s8-PVk">
+                                <rect key="frame" x="71" y="121" width="283" height="225"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WdD-3j-mJ2">
-                                <rect key="frame" x="28" y="98" width="358" height="183"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="square.and.arrow.down.fill" catalog="system"/>
+                                <state key="normal" backgroundImage="trash" catalog="system"/>
+                                <connections>
+                                    <segue destination="p6o-Ky-luF" kind="presentation" id="O17-PL-0nM"/>
+                                </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qzz-Ky-Jgk">
-                                <rect key="frame" x="20" y="275" width="374" height="173"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lrv-HS-eyf">
+                                <rect key="frame" x="71" y="595" width="266" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                            </imageView>
+                                <state key="normal" backgroundImage="trash.slash" catalog="system"/>
+                                <connections>
+                                    <segue destination="acg-Mw-lhA" kind="presentation" id="l3L-5b-THI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6jq-JN-wvS">
+                                <rect key="frame" x="71" y="361" width="266" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="trash.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="Wud-R4-gYf" kind="presentation" id="JHe-Fs-JRA"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="zbu-Cf-MuT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
                     </view>
                     <navigationItem key="navigationItem" title="Types of Work Outs" id="8jP-3y-jIg"/>
-                    <connections>
-                        <segue destination="MjC-bp-SDW" kind="presentation" id="bzG-U4-fUV"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f1I-ea-JzE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3665.217391304348" y="59.598214285714285"/>
-        </scene>
-        <!--Types Of Work Outs-->
-        <scene sceneID="b8h-Bw-OAz">
-            <objects>
-                <viewController id="h2X-NC-iNE" customClass="LowerWorkoutViewController" customModule="JIFFY_FITNESS" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="J9D-vq-o8h">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="fqb-Qn-5eN"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Types Of Work Outs" id="7hA-B7-jNq"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="R4x-C2-28s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5613.04347826087" y="59.598214285714285"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="C21-i2-qaX">
@@ -165,27 +156,59 @@
             </objects>
             <point key="canvasLocation" x="2789.8550724637685" y="59.598214285714285"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="NMJ-5n-Dyk">
+        <!--UpperBodyViewController-->
+        <scene sceneID="TOd-0w-Zmx">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MjC-bp-SDW" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="U3c-OO-Aol">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="h2X-NC-iNE" kind="relationship" relationship="rootViewController" id="dmb-ga-0wD"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MjV-If-AeM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController title="UpperBodyViewController" id="p6o-Ky-luF" customClass="UpperBodyViewController" customModule="JIFFY_FITNESS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KJI-ZB-IHP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="hjB-HT-KnS"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Myh-VK-s8f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4702.898550724638" y="59.598214285714285"/>
+            <point key="canvasLocation" x="2557" y="825"/>
+        </scene>
+        <!--LowerWorkoutViewController-->
+        <scene sceneID="oHq-Nh-Ob2">
+            <objects>
+                <viewController title="LowerWorkoutViewController" id="Wud-R4-gYf" customClass="LowerWorkoutViewController" customModule="JIFFY_FITNESS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GMB-1R-daS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="WQ1-q6-aHG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DCC-6m-YqW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3665" y="825"/>
+        </scene>
+        <!--CoreCadioViewController-->
+        <scene sceneID="2RF-Pa-IMG">
+            <objects>
+                <viewController title="CoreCadioViewController" id="acg-Mw-lhA" customClass="CoreCardioViewController" customModule="JIFFY_FITNESS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KWV-W4-D1n">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="IDW-L6-rfO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KQf-xQ-Oek" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4835" y="825"/>
         </scene>
     </scenes>
     <resources>
         <image name="pencil.circle.fill" catalog="system" width="128" height="121"/>
-        <image name="square.and.arrow.down.fill" catalog="system" width="121" height="128"/>
+        <image name="trash" catalog="system" width="121" height="128"/>
+        <image name="trash.fill" catalog="system" width="121" height="128"/>
+        <image name="trash.slash" catalog="system" width="115" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
