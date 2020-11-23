@@ -159,9 +159,9 @@
         <!--UpperBodyViewController-->
         <scene sceneID="TOd-0w-Zmx">
             <objects>
-                <viewController title="UpperBodyViewController" id="p6o-Ky-luF" customClass="UpperBodyViewController" customModule="JIFFY_FITNESS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="UpperBodyViewController" modalPresentationStyle="fullScreen" id="p6o-Ky-luF" customClass="UpperBodyViewController" customModule="JIFFY_FITNESS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KJI-ZB-IHP">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="hjB-HT-KnS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -174,9 +174,9 @@
         <!--LowerWorkoutViewController-->
         <scene sceneID="oHq-Nh-Ob2">
             <objects>
-                <viewController title="LowerWorkoutViewController" id="Wud-R4-gYf" customClass="LowerWorkoutViewController" customModule="JIFFY_FITNESS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="LowerWorkoutViewController" modalPresentationStyle="fullScreen" id="Wud-R4-gYf" customClass="LowerWorkoutViewController" customModule="JIFFY_FITNESS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GMB-1R-daS">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="WQ1-q6-aHG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -189,9 +189,9 @@
         <!--CoreCadioViewController-->
         <scene sceneID="2RF-Pa-IMG">
             <objects>
-                <viewController title="CoreCadioViewController" id="acg-Mw-lhA" customClass="CoreCardioViewController" customModule="JIFFY_FITNESS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="CoreCadioViewController" modalPresentationStyle="fullScreen" id="acg-Mw-lhA" customClass="CoreCardioViewController" customModule="JIFFY_FITNESS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KWV-W4-D1n">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="IDW-L6-rfO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
