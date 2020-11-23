@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Parse
+import AlamofireImage
 
 class UpperBodyViewController: UIViewController {
 

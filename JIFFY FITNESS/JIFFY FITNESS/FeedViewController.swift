@@ -12,11 +12,6 @@ import AlamofireImage
 class FeedViewController: UIViewController {
 
     
-    @IBOutlet weak var upperImage: UIButton!
-    
-    @IBOutlet weak var midImage: UIImageView!
-    
-    @IBOutlet weak var lowerImage: UIImageView!
     
     
     
