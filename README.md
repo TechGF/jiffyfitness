@@ -1,5 +1,5 @@
 # Jiffy Fitness app - README
-===
+
 Jacob Chen, Jonathan Leibovici, Fanflor Theodore, Gary Feng
 
 ## Table of Contents
