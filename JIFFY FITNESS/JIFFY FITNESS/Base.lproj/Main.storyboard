@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="382" placeholderIntrinsicHeight="259" image="pencil.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="7Ho-yt-G7p">
-                                <rect key="frame" x="16" y="109.5" width="382" height="258"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="382" placeholderIntrinsicHeight="259" image="jiffy-squarelogo-1541449115850" translatesAutoresizingMaskIntoConstraints="NO" id="7Ho-yt-G7p">
+                                <rect key="frame" x="16" y="109" width="382" height="259"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="7Ho-yt-G7p" secondAttribute="height" multiplier="339:230" id="TJY-if-JtM"/>
                                 </constraints>
@@ -106,7 +106,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yey-s8-PVk">
                                 <rect key="frame" x="71" y="121" width="283" height="225"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="trash" catalog="system"/>
+                                <state key="normal" backgroundImage="icons8-biceps-100"/>
                                 <connections>
                                     <segue destination="p6o-Ky-luF" kind="presentation" id="O17-PL-0nM"/>
                                 </connections>
@@ -114,15 +114,15 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lrv-HS-eyf">
                                 <rect key="frame" x="71" y="595" width="266" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="trash.slash" catalog="system"/>
+                                <state key="normal" backgroundImage="icons8-calves-100"/>
                                 <connections>
                                     <segue destination="acg-Mw-lhA" kind="presentation" id="l3L-5b-THI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6jq-JN-wvS">
-                                <rect key="frame" x="71" y="361" width="266" height="191"/>
+                                <rect key="frame" x="20" y="323" width="374" height="282"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="trash.fill" catalog="system"/>
+                                <state key="normal" backgroundImage="icons8-exercise-200"/>
                                 <connections>
                                     <segue destination="Wud-R4-gYf" kind="presentation" id="JHe-Fs-JRA"/>
                                 </connections>
@@ -169,7 +169,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Myh-VK-s8f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2557" y="825"/>
+            <point key="canvasLocation" x="2556.521739130435" y="825"/>
         </scene>
         <!--LowerWorkoutViewController-->
         <scene sceneID="oHq-Nh-Ob2">
@@ -203,10 +203,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="pencil.circle.fill" catalog="system" width="128" height="121"/>
-        <image name="trash" catalog="system" width="121" height="128"/>
-        <image name="trash.fill" catalog="system" width="121" height="128"/>
-        <image name="trash.slash" catalog="system" width="115" height="128"/>
+        <image name="icons8-biceps-100" width="100" height="100"/>
+        <image name="icons8-calves-100" width="100" height="100"/>
+        <image name="icons8-exercise-200" width="200" height="200"/>
+        <image name="jiffy-squarelogo-1541449115850" width="200" height="200"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
