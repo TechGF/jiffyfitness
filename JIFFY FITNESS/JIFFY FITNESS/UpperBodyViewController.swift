@@ -10,15 +10,58 @@ import UIKit
 import Parse
 import AlamofireImage
 
-class UpperBodyViewController: UIViewController {
-
+class UpperBodyViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    var posts = [PFObject]()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        tableView.delegate = self
+        tableView.dataSource = self
+        
+        }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        let query = PFQuery(className:"arms")
+        query.includeKey("Author")
+        query.limit = 20
+        
+        query.findObjectsInBackground { (posts, error) in
+            if posts != nil {
+                self.posts = posts!
+                self.tableView.reloadData()
+            }
+        }
     }
     
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return posts.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ArmCell")
+            as! ArmCell
+        
+        let post = posts[indexPath.row]
+        
+        let imageFile = post["Images"] as! PFFileObject
+        let urlString = imageFile.url!
+        let url = URL(string: urlString)!
+        
+        cell.photoView.af_setImage(withURL: url)
+        
+        
+        return cell
+    }
 
+    
+    
+}
     /*
     // MARK: - Navigation
 
@@ -29,4 +72,18 @@ class UpperBodyViewController: UIViewController {
     }
     */
 
-}
+
+/*
+let query = PFQuery(className:"arms")
+
+query.getObjectInBackground(withId: "<PARSE_OBJECT_ID>", block: { (parseObject: PFObject?, error: Error?) in
+
+  if error == nil && parseObject != nil {
+    print(parseObject as Any)
+  } else {
+    print(error as Any)
+  }
+})
+
+return UITableViewCell()
+*/

@@ -12,7 +12,10 @@
 		3738D4AB2554A23F000BD72F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3738D4A92554A23F000BD72F /* Main.storyboard */; };
 		3738D4AD2554A241000BD72F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3738D4AC2554A241000BD72F /* Assets.xcassets */; };
 		3738D4B02554A241000BD72F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3738D4AE2554A241000BD72F /* LaunchScreen.storyboard */; };
-		4EF36501256B409100C8932B /* CoreCardioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF36500256B409100C8932B /* CoreCardioViewController.swift */; };
+		4E907485257DC3B400F97E3A /* ArmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E907484257DC3B400F97E3A /* ArmCell.swift */; };
+		4E90748A257DC90F00F97E3A /* CoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E907489257DC90F00F97E3A /* CoreCell.swift */; };
+		4E90748F257DC91D00F97E3A /* LegCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E90748E257DC91D00F97E3A /* LegCell.swift */; };
+		4E907497257DCCFF00F97E3A /* CoreCardioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E907496257DCCFF00F97E3A /* CoreCardioViewController.swift */; };
 		50B56C2E255B0C6F00C251A4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B56C2D255B0C6F00C251A4 /* LoginViewController.swift */; };
 		50B56C33255B0CAF00C251A4 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B56C32255B0CAF00C251A4 /* FeedViewController.swift */; };
 		50B56C38255B1BDF00C251A4 /* LowerWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B56C37255B1BDF00C251A4 /* LowerWorkoutViewController.swift */; };
@@ -51,7 +54,10 @@
 		3738D4B62554A241000BD72F /* JIFFY FITNESSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JIFFY FITNESSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3738D4C12554A241000BD72F /* JIFFY FITNESSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JIFFY FITNESSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A5C1F6BF7E453259A7A1C88 /* Pods-JIFFY FITNESSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JIFFY FITNESSTests.release.xcconfig"; path = "Target Support Files/Pods-JIFFY FITNESSTests/Pods-JIFFY FITNESSTests.release.xcconfig"; sourceTree = "<group>"; };
-		4EF36500256B409100C8932B /* CoreCardioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreCardioViewController.swift; sourceTree = "<group>"; };
+		4E907484257DC3B400F97E3A /* ArmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmCell.swift; sourceTree = "<group>"; };
+		4E907489257DC90F00F97E3A /* CoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreCell.swift; sourceTree = "<group>"; };
+		4E90748E257DC91D00F97E3A /* LegCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegCell.swift; sourceTree = "<group>"; };
+		4E907496257DCCFF00F97E3A /* CoreCardioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreCardioViewController.swift; sourceTree = "<group>"; };
 		50B56C2D255B0C6F00C251A4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		50B56C32255B0CAF00C251A4 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		50B56C37255B1BDF00C251A4 /* LowerWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerWorkoutViewController.swift; sourceTree = "<group>"; };
@@ -138,8 +144,11 @@
 				50B56C32255B0CAF00C251A4 /* FeedViewController.swift */,
 				50B56C3C255B865900C251A4 /* SignupViewController.swift */,
 				50B56C49255DCCF100C251A4 /* UpperBodyViewController.swift */,
-				4EF36500256B409100C8932B /* CoreCardioViewController.swift */,
+				4E907496257DCCFF00F97E3A /* CoreCardioViewController.swift */,
 				50B56C37255B1BDF00C251A4 /* LowerWorkoutViewController.swift */,
+				4E907484257DC3B400F97E3A /* ArmCell.swift */,
+				4E907489257DC90F00F97E3A /* CoreCell.swift */,
+				4E90748E257DC91D00F97E3A /* LegCell.swift */,
 			);
 			path = "JIFFY FITNESS";
 			sourceTree = "<group>";
@@ -393,13 +402,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E907485257DC3B400F97E3A /* ArmCell.swift in Sources */,
+				4E907497257DCCFF00F97E3A /* CoreCardioViewController.swift in Sources */,
 				50B56C38255B1BDF00C251A4 /* LowerWorkoutViewController.swift in Sources */,
+				4E90748F257DC91D00F97E3A /* LegCell.swift in Sources */,
 				50B56C4A255DCCF100C251A4 /* UpperBodyViewController.swift in Sources */,
 				50B56C2E255B0C6F00C251A4 /* LoginViewController.swift in Sources */,
-				4EF36501256B409100C8932B /* CoreCardioViewController.swift in Sources */,
 				50B56C3D255B865A00C251A4 /* SignupViewController.swift in Sources */,
 				50B56C33255B0CAF00C251A4 /* FeedViewController.swift in Sources */,
 				3738D4A62554A23F000BD72F /* AppDelegate.swift in Sources */,
+				4E90748A257DC90F00F97E3A /* CoreCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

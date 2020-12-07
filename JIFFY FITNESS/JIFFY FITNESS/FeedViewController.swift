@@ -12,9 +12,6 @@ import AlamofireImage
 class FeedViewController: UIViewController {
 
     
-    
-    
-    
     override func viewDidLoad() {
 
 
