@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C63C86D3406E85C80BFAAAE /* Pods_JIFFY_FITNESSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AFC26D23E62F8A835BD8E4 /* Pods_JIFFY_FITNESSTests.framework */; };
+		3738D4A62554A23F000BD72F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3738D4A52554A23F000BD72F /* AppDelegate.swift */; };
+		3738D4AB2554A23F000BD72F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3738D4A92554A23F000BD72F /* Main.storyboard */; };
+		3738D4AD2554A241000BD72F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3738D4AC2554A241000BD72F /* Assets.xcassets */; };
+		3738D4B02554A241000BD72F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3738D4AE2554A241000BD72F /* LaunchScreen.storyboard */; };
+		4E907485257DC3B400F97E3A /* ArmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E907484257DC3B400F97E3A /* ArmCell.swift */; };
+		4E90748A257DC90F00F97E3A /* CoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E907489257DC90F00F97E3A /* CoreCell.swift */; };
+		4E90748F257DC91D00F97E3A /* LegCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E90748E257DC91D00F97E3A /* LegCell.swift */; };
+		4E907497257DCCFF00F97E3A /* CoreCardioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E907496257DCCFF00F97E3A /* CoreCardioViewController.swift */; };
+		50B56C2E255B0C6F00C251A4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B56C2D255B0C6F00C251A4 /* LoginViewController.swift */; };
+		50B56C33255B0CAF00C251A4 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B56C32255B0CAF00C251A4 /* FeedViewController.swift */; };
+		50B56C38255B1BDF00C251A4 /* LowerWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B56C37255B1BDF00C251A4 /* LowerWorkoutViewController.swift */; };
+		50B56C3D255B865A00C251A4 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B56C3C255B865900C251A4 /* SignupViewController.swift */; };
+		50B56C4A255DCCF100C251A4 /* UpperBodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B56C49255DCCF100C251A4 /* UpperBodyViewController.swift */; };
+		6486B8FB3132C51D931E51A0 /* Pods_JIFFY_FITNESS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7347E8EDBE76276FE15F677 /* Pods_JIFFY_FITNESS.framework */; };
+		7B8E4C591ADF08403AC42252 /* Pods_JIFFY_FITNESS_JIFFY_FITNESSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5FB5A7C4FF7B87CAD28411 /* Pods_JIFFY_FITNESS_JIFFY_FITNESSUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3738D4B72554A241000BD72F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3738D49A2554A23F000BD72F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3738D4A12554A23F000BD72F;
+			remoteInfo = "JIFFY FITNESS";
+		};
+		3738D4C22554A241000BD72F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3738D49A2554A23F000BD72F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3738D4A12554A23F000BD72F;
+			remoteInfo = "JIFFY FITNESS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00612EC8DF55E73A2791BC0C /* Pods-JIFFY FITNESS-JIFFY FITNESSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JIFFY FITNESS-JIFFY FITNESSUITests.release.xcconfig"; path = "Target Support Files/Pods-JIFFY FITNESS-JIFFY FITNESSUITests/Pods-JIFFY FITNESS-JIFFY FITNESSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2B5FB5A7C4FF7B87CAD28411 /* Pods_JIFFY_FITNESS_JIFFY_FITNESSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JIFFY_FITNESS_JIFFY_FITNESSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3738D4A22554A23F000BD72F /* JIFFY FITNESS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JIFFY FITNESS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3738D4A52554A23F000BD72F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3738D4AA2554A23F000BD72F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3738D4AC2554A241000BD72F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3738D4AF2554A241000BD72F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3738D4B12554A241000BD72F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3738D4B62554A241000BD72F /* JIFFY FITNESSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JIFFY FITNESSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3738D4C12554A241000BD72F /* JIFFY FITNESSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JIFFY FITNESSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A5C1F6BF7E453259A7A1C88 /* Pods-JIFFY FITNESSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JIFFY FITNESSTests.release.xcconfig"; path = "Target Support Files/Pods-JIFFY FITNESSTests/Pods-JIFFY FITNESSTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E907484257DC3B400F97E3A /* ArmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmCell.swift; sourceTree = "<group>"; };
+		4E907489257DC90F00F97E3A /* CoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreCell.swift; sourceTree = "<group>"; };
+		4E90748E257DC91D00F97E3A /* LegCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegCell.swift; sourceTree = "<group>"; };
+		4E907496257DCCFF00F97E3A /* CoreCardioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreCardioViewController.swift; sourceTree = "<group>"; };
+		50B56C2D255B0C6F00C251A4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		50B56C32255B0CAF00C251A4 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		50B56C37255B1BDF00C251A4 /* LowerWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerWorkoutViewController.swift; sourceTree = "<group>"; };
+		50B56C3C255B865900C251A4 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		50B56C49255DCCF100C251A4 /* UpperBodyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperBodyViewController.swift; sourceTree = "<group>"; };
+		676EB8D17CFC4E9A4863B07D /* Pods-JIFFY FITNESSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JIFFY FITNESSTests.debug.xcconfig"; path = "Target Support Files/Pods-JIFFY FITNESSTests/Pods-JIFFY FITNESSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E4125D8765D1B105DFF47D9 /* Pods-JIFFY FITNESS-JIFFY FITNESSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JIFFY FITNESS-JIFFY FITNESSUITests.debug.xcconfig"; path = "Target Support Files/Pods-JIFFY FITNESS-JIFFY FITNESSUITests/Pods-JIFFY FITNESS-JIFFY FITNESSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		71AFC26D23E62F8A835BD8E4 /* Pods_JIFFY_FITNESSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JIFFY_FITNESSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4778F79218B19F0EC0C0E1 /* Pods-JIFFY FITNESS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JIFFY FITNESS.release.xcconfig"; path = "Target Support Files/Pods-JIFFY FITNESS/Pods-JIFFY FITNESS.release.xcconfig"; sourceTree = "<group>"; };
+		9FF048228C4377F85481350B /* Pods-JIFFY FITNESS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JIFFY FITNESS.debug.xcconfig"; path = "Target Support Files/Pods-JIFFY FITNESS/Pods-JIFFY FITNESS.debug.xcconfig"; sourceTree = "<group>"; };
+		A7347E8EDBE76276FE15F677 /* Pods_JIFFY_FITNESS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JIFFY_FITNESS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3738D49F2554A23F000BD72F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6486B8FB3132C51D931E51A0 /* Pods_JIFFY_FITNESS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3738D4B32554A241000BD72F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C63C86D3406E85C80BFAAAE /* Pods_JIFFY_FITNESSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3738D4BE2554A241000BD72F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8E4C591ADF08403AC42252 /* Pods_JIFFY_FITNESS_JIFFY_FITNESSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10DD296DBF3646EB83A2EC51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FF048228C4377F85481350B /* Pods-JIFFY FITNESS.debug.xcconfig */,
+				8B4778F79218B19F0EC0C0E1 /* Pods-JIFFY FITNESS.release.xcconfig */,
+				6E4125D8765D1B105DFF47D9 /* Pods-JIFFY FITNESS-JIFFY FITNESSUITests.debug.xcconfig */,
+				00612EC8DF55E73A2791BC0C /* Pods-JIFFY FITNESS-JIFFY FITNESSUITests.release.xcconfig */,
+				676EB8D17CFC4E9A4863B07D /* Pods-JIFFY FITNESSTests.debug.xcconfig */,
+				3A5C1F6BF7E453259A7A1C88 /* Pods-JIFFY FITNESSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3738D4992554A23F000BD72F = {
+			isa = PBXGroup;
+			children = (
+				3738D4A42554A23F000BD72F /* JIFFY FITNESS */,
+				3738D4A32554A23F000BD72F /* Products */,
+				10DD296DBF3646EB83A2EC51 /* Pods */,
+				4682DAE6FA8AD255D5BB28F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3738D4A32554A23F000BD72F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3738D4A22554A23F000BD72F /* JIFFY FITNESS.app */,
+				3738D4B62554A241000BD72F /* JIFFY FITNESSTests.xctest */,
+				3738D4C12554A241000BD72F /* JIFFY FITNESSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3738D4A42554A23F000BD72F /* JIFFY FITNESS */ = {
+			isa = PBXGroup;
+			children = (
+				3738D4A52554A23F000BD72F /* AppDelegate.swift */,
+				3738D4A92554A23F000BD72F /* Main.storyboard */,
+				3738D4AC2554A241000BD72F /* Assets.xcassets */,
+				3738D4AE2554A241000BD72F /* LaunchScreen.storyboard */,
+				3738D4B12554A241000BD72F /* Info.plist */,
+				50B56C2D255B0C6F00C251A4 /* LoginViewController.swift */,
+				50B56C32255B0CAF00C251A4 /* FeedViewController.swift */,
+				50B56C3C255B865900C251A4 /* SignupViewController.swift */,
+				50B56C49255DCCF100C251A4 /* UpperBodyViewController.swift */,
+				4E907496257DCCFF00F97E3A /* CoreCardioViewController.swift */,
+				50B56C37255B1BDF00C251A4 /* LowerWorkoutViewController.swift */,
+				4E907484257DC3B400F97E3A /* ArmCell.swift */,
+				4E907489257DC90F00F97E3A /* CoreCell.swift */,
+				4E90748E257DC91D00F97E3A /* LegCell.swift */,
+			);
+			path = "JIFFY FITNESS";
+			sourceTree = "<group>";
+		};
+		4682DAE6FA8AD255D5BB28F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7347E8EDBE76276FE15F677 /* Pods_JIFFY_FITNESS.framework */,
+				2B5FB5A7C4FF7B87CAD28411 /* Pods_JIFFY_FITNESS_JIFFY_FITNESSUITests.framework */,
+				71AFC26D23E62F8A835BD8E4 /* Pods_JIFFY_FITNESSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3738D4A12554A23F000BD72F /* JIFFY FITNESS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3738D4CA2554A241000BD72F /* Build configuration list for PBXNativeTarget "JIFFY FITNESS" */;
+			buildPhases = (
+				BC6CE075A6B064C0A4693761 /* [CP] Check Pods Manifest.lock */,
+				3738D49E2554A23F000BD72F /* Sources */,
+				3738D49F2554A23F000BD72F /* Frameworks */,
+				3738D4A02554A23F000BD72F /* Resources */,
+				019E553EF9A0A7113B8BB5CC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JIFFY FITNESS";
+			productName = "JIFFY FITNESS";
+			productReference = 3738D4A22554A23F000BD72F /* JIFFY FITNESS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3738D4B52554A241000BD72F /* JIFFY FITNESSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3738D4CD2554A241000BD72F /* Build configuration list for PBXNativeTarget "JIFFY FITNESSTests" */;
+			buildPhases = (
+				7F0358F3EC9CFF6707EA5649 /* [CP] Check Pods Manifest.lock */,
+				3738D4B22554A241000BD72F /* Sources */,
+				3738D4B32554A241000BD72F /* Frameworks */,
+				3738D4B42554A241000BD72F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3738D4B82554A241000BD72F /* PBXTargetDependency */,
+			);
+			name = "JIFFY FITNESSTests";
+			productName = "JIFFY FITNESSTests";
+			productReference = 3738D4B62554A241000BD72F /* JIFFY FITNESSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3738D4C02554A241000BD72F /* JIFFY FITNESSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3738D4D02554A241000BD72F /* Build configuration list for PBXNativeTarget "JIFFY FITNESSUITests" */;
+			buildPhases = (
+				B926A37C63ACAB89BCD18932 /* [CP] Check Pods Manifest.lock */,
+				3738D4BD2554A241000BD72F /* Sources */,
+				3738D4BE2554A241000BD72F /* Frameworks */,
+				3738D4BF2554A241000BD72F /* Resources */,
+				E20EF1836CB4DD40773F7334 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3738D4C32554A241000BD72F /* PBXTargetDependency */,
+			);
+			name = "JIFFY FITNESSUITests";
+			productName = "JIFFY FITNESSUITests";
+			productReference = 3738D4C12554A241000BD72F /* JIFFY FITNESSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3738D49A2554A23F000BD72F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "JIFFY FITNESS";
+				TargetAttributes = {
+					3738D4A12554A23F000BD72F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					3738D4B52554A241000BD72F = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 3738D4A12554A23F000BD72F;
+					};
+					3738D4C02554A241000BD72F = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 3738D4A12554A23F000BD72F;
+					};
+				};
+			};
+			buildConfigurationList = 3738D49D2554A23F000BD72F /* Build configuration list for PBXProject "JIFFY FITNESS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3738D4992554A23F000BD72F;
+			productRefGroup = 3738D4A32554A23F000BD72F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3738D4A12554A23F000BD72F /* JIFFY FITNESS */,
+				3738D4B52554A241000BD72F /* JIFFY FITNESSTests */,
+				3738D4C02554A241000BD72F /* JIFFY FITNESSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3738D4A02554A23F000BD72F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3738D4B02554A241000BD72F /* LaunchScreen.storyboard in Resources */,
+				3738D4AD2554A241000BD72F /* Assets.xcassets in Resources */,
+				3738D4AB2554A23F000BD72F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3738D4B42554A241000BD72F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3738D4BF2554A241000BD72F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		019E553EF9A0A7113B8BB5CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JIFFY FITNESS/Pods-JIFFY FITNESS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JIFFY FITNESS/Pods-JIFFY FITNESS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JIFFY FITNESS/Pods-JIFFY FITNESS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F0358F3EC9CFF6707EA5649 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JIFFY FITNESSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B926A37C63ACAB89BCD18932 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JIFFY FITNESS-JIFFY FITNESSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC6CE075A6B064C0A4693761 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JIFFY FITNESS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E20EF1836CB4DD40773F7334 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JIFFY FITNESS-JIFFY FITNESSUITests/Pods-JIFFY FITNESS-JIFFY FITNESSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JIFFY FITNESS-JIFFY FITNESSUITests/Pods-JIFFY FITNESS-JIFFY FITNESSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JIFFY FITNESS-JIFFY FITNESSUITests/Pods-JIFFY FITNESS-JIFFY FITNESSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3738D49E2554A23F000BD72F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E907485257DC3B400F97E3A /* ArmCell.swift in Sources */,
+				4E907497257DCCFF00F97E3A /* CoreCardioViewController.swift in Sources */,
+				50B56C38255B1BDF00C251A4 /* LowerWorkoutViewController.swift in Sources */,
+				4E90748F257DC91D00F97E3A /* LegCell.swift in Sources */,
+				50B56C4A255DCCF100C251A4 /* UpperBodyViewController.swift in Sources */,
+				50B56C2E255B0C6F00C251A4 /* LoginViewController.swift in Sources */,
+				50B56C3D255B865A00C251A4 /* SignupViewController.swift in Sources */,
+				50B56C33255B0CAF00C251A4 /* FeedViewController.swift in Sources */,
+				3738D4A62554A23F000BD72F /* AppDelegate.swift in Sources */,
+				4E90748A257DC90F00F97E3A /* CoreCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3738D4B22554A241000BD72F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3738D4BD2554A241000BD72F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3738D4B82554A241000BD72F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3738D4A12554A23F000BD72F /* JIFFY FITNESS */;
+			targetProxy = 3738D4B72554A241000BD72F /* PBXContainerItemProxy */;
+		};
+		3738D4C32554A241000BD72F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3738D4A12554A23F000BD72F /* JIFFY FITNESS */;
+			targetProxy = 3738D4C22554A241000BD72F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3738D4A92554A23F000BD72F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3738D4AA2554A23F000BD72F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3738D4AE2554A241000BD72F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3738D4AF2554A241000BD72F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3738D4C82554A241000BD72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3738D4C92554A241000BD72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3738D4CB2554A241000BD72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FF048228C4377F85481350B /* Pods-JIFFY FITNESS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JIFFY FITNESS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JIFFY-FITNESS.JIFFY-FITNESS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3738D4CC2554A241000BD72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B4778F79218B19F0EC0C0E1 /* Pods-JIFFY FITNESS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JIFFY FITNESS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JIFFY-FITNESS.JIFFY-FITNESS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3738D4CE2554A241000BD72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 676EB8D17CFC4E9A4863B07D /* Pods-JIFFY FITNESSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JIFFY FITNESSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JIFFY-FITNESS.JIFFY-FITNESSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JIFFY FITNESS.app/JIFFY FITNESS";
+			};
+			name = Debug;
+		};
+		3738D4CF2554A241000BD72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A5C1F6BF7E453259A7A1C88 /* Pods-JIFFY FITNESSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JIFFY FITNESSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JIFFY-FITNESS.JIFFY-FITNESSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JIFFY FITNESS.app/JIFFY FITNESS";
+			};
+			name = Release;
+		};
+		3738D4D12554A241000BD72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E4125D8765D1B105DFF47D9 /* Pods-JIFFY FITNESS-JIFFY FITNESSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JIFFY FITNESSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JIFFY-FITNESS.JIFFY-FITNESSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JIFFY FITNESS";
+			};
+			name = Debug;
+		};
+		3738D4D22554A241000BD72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00612EC8DF55E73A2791BC0C /* Pods-JIFFY FITNESS-JIFFY FITNESSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JIFFY FITNESSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JIFFY-FITNESS.JIFFY-FITNESSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JIFFY FITNESS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3738D49D2554A23F000BD72F /* Build configuration list for PBXProject "JIFFY FITNESS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3738D4C82554A241000BD72F /* Debug */,
+				3738D4C92554A241000BD72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3738D4CA2554A241000BD72F /* Build configuration list for PBXNativeTarget "JIFFY FITNESS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3738D4CB2554A241000BD72F /* Debug */,
+				3738D4CC2554A241000BD72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3738D4CD2554A241000BD72F /* Build configuration list for PBXNativeTarget "JIFFY FITNESSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3738D4CE2554A241000BD72F /* Debug */,
+				3738D4CF2554A241000BD72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3738D4D02554A241000BD72F /* Build configuration list for PBXNativeTarget "JIFFY FITNESSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3738D4D12554A241000BD72F /* Debug */,
+				3738D4D22554A241000BD72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3738D49A2554A23F000BD72F /* Project object */;
+}
