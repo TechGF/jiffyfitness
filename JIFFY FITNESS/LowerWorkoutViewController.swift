@@ -54,6 +54,7 @@ class LowerWorkoutViewController: UIViewController, UITableViewDelegate, UITable
         
         cell.photoView.af_setImage(withURL: url)
         
+        cell.descriptionLabel.text =  post["description"] as? String ?? " "
         
         return cell
     }

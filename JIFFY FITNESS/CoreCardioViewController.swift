@@ -43,6 +43,7 @@ class CoreCardioViewController: UIViewController, UITableViewDelegate, UITableVi
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "CoreCell")
             as! CoreCell
         
@@ -53,7 +54,8 @@ class CoreCardioViewController: UIViewController, UITableViewDelegate, UITableVi
         let url = URL(string: urlString)!
         
         cell.photoView.af_setImage(withURL: url)
-        
+        //cell.descriptLabel.textAlignment = .center
+        cell.descriptionLable.text =  post["discript"] as? String ?? " "
         
         return cell
     }

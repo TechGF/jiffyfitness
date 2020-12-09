@@ -1,19 +1,15 @@
 //
-//  LegCell.swift
+//  dontworryabouthisTableViewCell.swift
 //  JIFFY FITNESS
 //
-//  Created by Gary Feng on 12/6/20.
+//  Created by Jonathan Leibovici on 12/9/20.
 //  Copyright © 2020 JIFFY FITNESS. All rights reserved.
 //
 
 import UIKit
 
-class LegCell: UITableViewCell {
+class dontworryabouthisTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var photoView: UIImageView!
-    
-    @IBOutlet weak var descriptionLabel: UILabel!
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
