@@ -1,5 +1,5 @@
 # Jiffy Fitness app - README
-===
+
 Gary Feng, Fanflor Theodore, Jonathan Leibovici, Jacob Chen
 
 ## Table of Contents
@@ -93,6 +93,7 @@ Optional:
 
 "https://imgur.com/a/wWTugSm"
 ![](https://i.imgur.com/RtnIBpL.jpg)
+
 
 ## Networking
 
