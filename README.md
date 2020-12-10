@@ -191,5 +191,8 @@ The following **required** functionality is completed:
 - [X] Gifs created to show build progress and added to README (3pts)
 
 http://g.recordit.co/yQPqAh1p5D.gif
+
 http://g.recordit.co/AWDZVNXqR2.gif
+
 http://g.recordit.co/pJ5HFNPWZt.gif
+
