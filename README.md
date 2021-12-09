@@ -190,9 +190,11 @@ The following **required** functionality is completed:
 - [X] Completed user stories checked-off in README (2pts)
 - [X] Gifs created to show build progress and added to README (3pts)
 
-http://g.recordit.co/yQPqAh1p5D.gif
+## Video Walkthrough
 
-http://g.recordit.co/AWDZVNXqR2.gif
+<img src='http://g.recordit.co/yQPqAh1p5D.gif'><br>
 
-http://g.recordit.co/pJ5HFNPWZt.gif
+<img src='http://g.recordit.co/AWDZVNXqR2.gif'><br>
+
+<img src='http://g.recordit.co/pJ5HFNPWZt.gif'><br>
 
